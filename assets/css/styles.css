@@ -17,18 +17,77 @@
 
 }
 
-ul li{
+#menu li{
     display: inline;
     margin: 40px;
 }
 
-ul li a{
+#menu li a{
     text-decoration:  none;
     color: red;
 }
  
 
 /*Estilos da pagina pagina2.html*/
+
+.center2{
+    text-align: center;
+    color: blue;
+    background-color: black;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    background-color: black;
+  
+
+}
+
+#menu2 li{
+    display: inline;
+    margin: 40px;
+}
+
+#menu2 li a{
+    text-decoration:  none;
+    color: blue;
+}
+
+/* estilos da pagina contato*/
+
+
+.container3{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+    background-color: black;
+}
+
+    #menu3 li{
+        display: inline;
+        margin: 40px;
+    }
+    
+    #menu3 li a{
+        text-decoration:  none;
+        color: orangered;
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 
